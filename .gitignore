@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# Pure Data
+*.pd_linux
+*.pd_darwin
+*.pd_freebsd
+*.d_fat
+*.d_amd64
+*.d_i386
+
+# Editor backups and swap files
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+\#*\#
+.#*
+
+# IDE / Editor directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Academic / personal documents (not part of the repository)
+*.pdf
+
+# Python (if scripts are added later)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
