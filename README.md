@@ -1,12 +1,12 @@
 # Messiaen ad Infinitum
 
-A generative music system built in [Pure Data](https://puredata.info/) that produces endless, evolving compositions inspired by Olivier Messiaen's aesthetic principles. The patch combines Markov-chain harmonic progressions, non-retrograde rhythms, and modes of limited transposition into a three-voice generative texture — melody, chords, and bass — output as real-time MIDI.
+A generative music system built in [Pure Data](https://puredata.info/) that produces endless, evolving compositions inspired by Olivier Messiaen's aesthetic principles. The patch combines Markov-chain harmonic progressions, non-retrogradable rhythms, and modes of limited transposition into a three-voice generative texture — melody, chords, and bass — output as real-time MIDI.
 
 ## Compositional Techniques
 
 The patch implements three core elements of Messiaen's compositional language:
 
-**Non-retrograde rhythms** — Rhythmic sequences that read identically forwards and backwards (palindromic durations). The bass voice, for instance, uses the prime-number sequence `7 11 13 17 13 11 7`, while the melody draws from `2 3 5 3 2 7 2 5 3 2 2 3`. These are shuffled and reversed at runtime to preserve their symmetric property while introducing variation.
+**Non-retrogradable rhythms** — Rhythmic sequences that read identically forwards and backwards (palindromic durations). The bass voice, for instance, uses the prime-number sequence `7 11 13 17 13 11 7`, while the melody draws from `2 3 5 3 2 7 2 5 3 2 2 3`. These are shuffled and reversed at runtime to preserve their symmetric property while introducing variation.
 
 **Modes of limited transposition** — The melodic material is drawn from Messiaen's 2nd Mode (the octatonic scale), segmented as `0 1 3 6 7 9`. This scale admits only a limited number of transpositions before repeating, creating the characteristic harmonic colour Messiaen favoured.
 
@@ -34,11 +34,11 @@ The three voices share a modulation bus (`s modulation` / `r modulation`) that g
 
 - [Pure Data](https://puredata.info/downloads/pure-data) (Pd Vanilla ≥ 0.51 or Pd-l2ork / Purr Data)
 - **cyclone** library (provides `counter`, `zl` objects, and extended `moses`)
-- A MIDI output device (hardware synthesiser, virtual instrument, or software such as [FluidSynth](https://www.fluidsynth.org/))
+- A MIDI output device (hardware synthesiser, virtual instrument, or software)
 
 ### Installing the cyclone library
 
-In Pure Data, go to **Help → Find externals**, search for `cyclone`, and click **Install**. Alternatively, install via [Deken](https://github.com/pure-data/deken) or your system's package manager.
+In Pure Data, go to **Help → Find externals**, search for `cyclone`, and click **Install**.
 
 ## Getting Started
 
