@@ -46,7 +46,7 @@ In Pure Data, go to **Help → Find externals**, search for `cyclone`, and click
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/<your-username>/messiaen-ad-infinitum.git
+   git clone https://github.com/sml-pereira/messiaen-ad-infinitum.git
    cd messiaen-ad-infinitum
    ```
 
