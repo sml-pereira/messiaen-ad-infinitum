@@ -1,7 +1,6 @@
 # Messiaen ad Infinitum
 
 [![Demo video](https://vumbnail.com/1180267097.jpg)](https://vimeo.com/1180267097)
-https://vimeo.com/1180267097?fl=tl&fe=ec
 
 A generative music system built in [Pure Data](https://puredata.info/) that produces endless, evolving compositions inspired by Olivier Messiaen's aesthetic principles. The patch combines Markov-chain harmonic progressions, non-retrogradable rhythms, and modes of limited transposition into a three-voice generative texture — melody, chords, and bass — output as real-time MIDI.
 
